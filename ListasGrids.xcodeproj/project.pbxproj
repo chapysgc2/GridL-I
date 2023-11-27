@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA823BE32B155AA6005862C2 /* GridList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA823BE22B155AA6005862C2 /* GridList.swift */; };
 		BA96662A2B144548005514A0 /* ListasGridsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9666292B144548005514A0 /* ListasGridsApp.swift */; };
 		BA96662C2B144548005514A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA96662B2B144548005514A0 /* ContentView.swift */; };
 		BA96662E2B14454A005514A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA96662D2B14454A005514A0 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		BA96663B2B14454A005514A0 /* ListasGridsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA96663A2B14454A005514A0 /* ListasGridsTests.swift */; };
 		BA9666452B14454A005514A0 /* ListasGridsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9666442B14454A005514A0 /* ListasGridsUITests.swift */; };
 		BA9666472B14454A005514A0 /* ListasGridsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9666462B14454A005514A0 /* ListasGridsUITestsLaunchTests.swift */; };
+		BA9666542B1446FF005514A0 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9666532B1446FF005514A0 /* Modelo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA823BE22B155AA6005862C2 /* GridList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridList.swift; sourceTree = "<group>"; };
 		BA9666262B144548005514A0 /* ListasGrids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListasGrids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9666292B144548005514A0 /* ListasGridsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListasGridsApp.swift; sourceTree = "<group>"; };
 		BA96662B2B144548005514A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		BA9666402B14454A005514A0 /* ListasGridsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListasGridsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9666442B14454A005514A0 /* ListasGridsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListasGridsUITests.swift; sourceTree = "<group>"; };
 		BA9666462B14454A005514A0 /* ListasGridsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListasGridsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA9666532B1446FF005514A0 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				BA96662B2B144548005514A0 /* ContentView.swift */,
 				BA96662D2B14454A005514A0 /* Assets.xcassets */,
 				BA96662F2B14454A005514A0 /* Preview Content */,
+				BA9666532B1446FF005514A0 /* Modelo.swift */,
+				BA823BE22B155AA6005862C2 /* GridList.swift */,
 			);
 			path = ListasGrids;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9666542B1446FF005514A0 /* Modelo.swift in Sources */,
 				BA96662C2B144548005514A0 /* ContentView.swift in Sources */,
 				BA96662A2B144548005514A0 /* ListasGridsApp.swift in Sources */,
+				BA823BE32B155AA6005862C2 /* GridList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
