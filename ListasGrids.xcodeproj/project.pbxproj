@@ -16,6 +16,7 @@
 		BA9666452B14454A005514A0 /* ListasGridsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9666442B14454A005514A0 /* ListasGridsUITests.swift */; };
 		BA9666472B14454A005514A0 /* ListasGridsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9666462B14454A005514A0 /* ListasGridsUITestsLaunchTests.swift */; };
 		BA9666542B1446FF005514A0 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9666532B1446FF005514A0 /* Modelo.swift */; };
+		BACB02E22B2E702F008CF3B1 /* ModeloColumnas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACB02E12B2E702F008CF3B1 /* ModeloColumnas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		BA9666442B14454A005514A0 /* ListasGridsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListasGridsUITests.swift; sourceTree = "<group>"; };
 		BA9666462B14454A005514A0 /* ListasGridsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListasGridsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BA9666532B1446FF005514A0 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		BACB02E12B2E702F008CF3B1 /* ModeloColumnas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeloColumnas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				BA96662F2B14454A005514A0 /* Preview Content */,
 				BA9666532B1446FF005514A0 /* Modelo.swift */,
 				BA823BE22B155AA6005862C2 /* GridList.swift */,
+				BACB02E12B2E702F008CF3B1 /* ModeloColumnas.swift */,
 			);
 			path = ListasGrids;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BACB02E22B2E702F008CF3B1 /* ModeloColumnas.swift in Sources */,
 				BA9666542B1446FF005514A0 /* Modelo.swift in Sources */,
 				BA96662C2B144548005514A0 /* ContentView.swift in Sources */,
 				BA96662A2B144548005514A0 /* ListasGridsApp.swift in Sources */,
