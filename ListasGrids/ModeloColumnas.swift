@@ -16,7 +16,7 @@ class ModeloColumnas : ObservableObject{
     
     func columnas(num : Int){
         
-        gridItem = Array(repeating: .init(.flxible(maximum:80)), count: num)
+        gridItem = Array(repeating: .init(.flexible(maximum:80)), count: num)
         UserDefaults.standard.setValue(num, forKey: "numero")
     }
     
